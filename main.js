@@ -21,4 +21,12 @@ const DateToday = {
   }
 }
 
+// Create app
 Vue.createApp(DateToday).mount('#date-today')
+
+// Define a component
+app.compnent('test-item', {
+  template: "<li>What's good?</li>"
+})
+
+app.mount()

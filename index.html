@@ -1,7 +1,10 @@
 <div id="date-today" class="demo">
   <span :title="date" class="demo">
     {{ date }}
-    <button v-on:click="swapIt"> Gimme da date </button>
+    <br>
+    <input v-model="date" type="text" />
+    <button v-on:click="swapIt" > Gimme da date </button>
+    <test-item></test-item>
   </span>
 </div>
 
